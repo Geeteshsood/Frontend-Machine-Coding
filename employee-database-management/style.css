@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+}
+
+#topDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem;
+}
+
+#btn {
+  height: 3rem;
+  width: 4rem;
+}
+
+#mainDiv {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#leftDiv {
+  width: 40%;
+  background-color: #f17070;
+  border: 1px solid gray;
+}
+
+#rightDiv {
+  width: 60%;
+  background-color: #f1b8b8;
+  border: 2px solid rgb(66, 47, 47);
+}
+/* 
+#frm {
+  display: none;
+} */
+
+.showData {
+  text-align: center;
+}
+
+.showInfo {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.parent {
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+  justify-content: space-between; /* Spacing between child elements */
+  padding: 10px; /* Padding around the content */
+  border-bottom: 2px solid #ccc; /* Border around the container */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 10px; /* Spacing between each container */
+}
+
+.parent div {
+  cursor: pointer;
+  flex: 1; /* Take remaining space */
+}
+.parent div:hover {
+  color: #e7e9c3;
+}
+
+.parent button {
+  border: none; /* Remove button border */
+  padding: 5px 10px; /* Padding inside the button */
+  border-radius: 100%; /* Round button corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  background-color: transparent; /* Make button background transparent */
+  position: relative; /* Set position relative for absolute positioning of lines */
+}
+
+/* Add hover effect */
+.parent button:hover {
+  background-color: #e7e9c3; /* Darken the lines on hover */
+}

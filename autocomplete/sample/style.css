@@ -1,0 +1,23 @@
+#grandParent {
+  height: 70vh;
+  width: 70vw;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#parent {
+  height: 35vh;
+  width: 35vw;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#child {
+  height: 17.5vh;
+  width: 17.5vw;
+  border: 2px solid greenyellow;
+}
